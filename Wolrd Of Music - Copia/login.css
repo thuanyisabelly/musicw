@@ -1,0 +1,124 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(http://www.meupositivo.com.br/doseujeito/wp-content/uploads/2021/03/historia-da-musica0.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.login-box{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f1e1b8;
+}
+
+.login-box h1{
+   float: left;
+   font-size: 40px; 
+   border-bottom: 6px solid #009688;
+   margin-bottom: 50px;
+   padding: 13px 0;
+}
+
+.textbox{
+  width: 99%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0; 
+  margin: 8px 0;
+  border-bottom: 1px solid #009688 ;
+}
+
+.textbox i{
+   width: 25px;
+   float: left;
+   text-align: center; 
+   color: aliceblue;
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: aliceblue;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 5 10px;
+}
+
+button{
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color:#f1e1b8;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background: #009688;
+    height: 100%;
+    width: 0; 
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.6s;
+ }
+ 
+ button:hover span{
+     width: 100%;
+ }
+ 
+ button:hover{
+     border: none;
+ 
+ }
+
+ .bi-arrow-90deg-left{
+     color: aliceblue;
+     top: 30px;
+     position: relative;
+     padding: 8px;
+     width: 25px; 
+     cursor: pointer;
+ }
+
+
+p{
+text-align: center;
+color: #f1e1b8;
+font-size: 15px;
+}
+
+a{
+color: #009688;
+text-decoration: none;
+margin-left: 10px;
+}
+
+.error-validation {
+    color: #ff1a1a;
+    position: absolute;
+    top: 182px;
+    font-size: 12px;
+  }
+  
+  .template {
+    display: none;
+  }
